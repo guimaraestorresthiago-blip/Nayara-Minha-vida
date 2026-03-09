@@ -52,19 +52,15 @@ setInterval(createFloatingHeart, 450);
 // slider
 const sliderImages = [
   {
-    src: "./imagens/foto1.jpg",
-    caption: "Você é meu sorriso favorito."
-  },
-  {
-    src: "./imagens/foto2.jpg",
+    src: "foto2.jpg",
     caption: "Cada detalhe seu é especial para mim."
   },
   {
-    src: "./imagens/foto3.jpg",
+    src: "foto3.jpg",
     caption: "Você deixa tudo mais bonito sem esforço."
   },
   {
-    src: "./imagens/foto4.jpg",
+    src: "foto4.jpg",
     caption: "Meu coração sempre vai escolher você."
   }
 ];
@@ -177,3 +173,4 @@ function setupLightbox() {
 
 setupSlider();
 setupLightbox();
+
